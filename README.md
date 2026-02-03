@@ -44,5 +44,5 @@ No frameworks, build tools, or server dependencies required.
 
 ## Resources
 
-- Demo:
-- Article: 
+- Demo: https://moseschirusha.github.io/day_34_election_information_portal
+- Article: https://moseschirusha.medium.com/how-a-simple-election-information-portal-can-be-replicated-across-countries-to-strengthen-voter-5a1b326f50c7
