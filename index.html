@@ -1,0 +1,38 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Day 34 — Republic of Congo Election Information</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Republic of Congo Election Information Portal</h1>
+    <p class="subtitle">
+      Compare presidential candidates running in the 15 March 2026 election and learn about their backgrounds and priorities.
+    </p>
+
+    <div class="form-group">
+      <label for="candidateSelect">Select a Candidate</label>
+      <select id="candidateSelect">
+        <option value="">Choose a candidate</option>
+      </select>
+    </div>
+
+    <div id="candidateInfo" class="hidden">
+      <h2 id="name"></h2>
+      <p><strong>Party:</strong> <span id="party"></span></p>
+      <p><strong>Background:</strong> <span id="background"></span></p>
+      <p><strong>Key Focus Areas:</strong> <span id="priorities"></span></p>
+    </div>
+
+    <footer>
+      Day 34/90 — Promoting informed and peaceful participation in the Republic of Congo’s elections on 15 March 2026
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
